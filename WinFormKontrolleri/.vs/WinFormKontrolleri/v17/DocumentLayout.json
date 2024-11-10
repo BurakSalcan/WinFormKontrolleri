@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\",
+  "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\2. Kurs\\3 - WinFormKontrolleri\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\metinaraclari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\metinaraclari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\2. kurs\\3 - winformkontrolleri\\winformkontrolleri\\comboboxkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\comboboxkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\2. kurs\\3 - winformkontrolleri\\winformkontrolleri\\comboboxkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\comboboxkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MetinAraclari.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\MetinAraclari.cs",
-              "RelativeDocumentMoniker": "WinFormKontrolleri\\MetinAraclari.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\MetinAraclari.cs [Design]",
-              "RelativeToolTip": "WinFormKontrolleri\\MetinAraclari.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "ComboBoxKontrol\u00FC.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\2. Kurs\\3 - WinFormKontrolleri\\WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\2. Kurs\\3 - WinFormKontrolleri\\WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "RelativeToolTip": "WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAhwDwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:09:10.205Z",
+              "WhenOpened": "2024-11-09T13:36:25.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComboBoxKontrol\u00FC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\2. Kurs\\3 - WinFormKontrolleri\\WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\2. Kurs\\3 - WinFormKontrolleri\\WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs [Design]",
+              "RelativeToolTip": "WinFormKontrolleri\\ComboBoxKontrol\u00FC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:30:02.945Z",
               "EditorCaption": " [Design]"
             }
           ]

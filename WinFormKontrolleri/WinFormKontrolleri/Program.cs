@@ -18,7 +18,8 @@ namespace WinFormKontrolleri
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new LabelControl());
             //Application.Run(new ButtonKontrolu());
-            Application.Run(new MetinAraclari());
+            Application.Run(new ComboBoxKontrolü());
+
         }
     }
 }

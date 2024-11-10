@@ -52,6 +52,12 @@
     <Compile Include="ButtonKontrolu.Designer.cs">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComboBoxKontrolü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBoxKontrolü.Designer.cs">
+      <DependentUpon>ComboBoxKontrolü.cs</DependentUpon>
+    </Compile>
     <Compile Include="LabelControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,10 +70,14 @@
     <Compile Include="MetinAraclari.Designer.cs">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Marka.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxKontrolü.resx">
+      <DependentUpon>ComboBoxKontrolü.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelControl.resx">
       <DependentUpon>LabelControl.cs</DependentUpon>
