@@ -52,6 +52,18 @@
     <Compile Include="ButtonKontrolu.Designer.cs">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckBoxRadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckBoxRadioButton.Designer.cs">
+      <DependentUpon>CheckBoxRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckedListBoxKontrolü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckedListBoxKontrolü.Designer.cs">
+      <DependentUpon>CheckedListBoxKontrolü.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComboBoxKontrolü.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,12 @@
     </Compile>
     <Compile Include="LabelControl.Designer.cs">
       <DependentUpon>LabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxKontrolu.Designer.cs">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="MetinAraclari.cs">
       <SubType>Form</SubType>
@@ -76,11 +94,20 @@
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckBoxRadioButton.resx">
+      <DependentUpon>CheckBoxRadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBoxKontrolü.resx">
+      <DependentUpon>CheckedListBoxKontrolü.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxKontrolü.resx">
       <DependentUpon>ComboBoxKontrolü.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelControl.resx">
       <DependentUpon>LabelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxKontrolu.resx">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>

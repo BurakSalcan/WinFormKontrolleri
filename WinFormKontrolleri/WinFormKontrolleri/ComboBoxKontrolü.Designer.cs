@@ -39,6 +39,7 @@
             this.cb_markalar = new System.Windows.Forms.ComboBox();
             this.btn_markaSeç = new System.Windows.Forms.Button();
             this.lbl_marka = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cb_departman
@@ -49,7 +50,7 @@
             "Muhasebe",
             "Levazım",
             "İnsan Kaynakları"});
-            this.cb_departman.Location = new System.Drawing.Point(50, 35);
+            this.cb_departman.Location = new System.Drawing.Point(50, 151);
             this.cb_departman.Name = "cb_departman";
             this.cb_departman.Size = new System.Drawing.Size(217, 24);
             this.cb_departman.TabIndex = 0;
@@ -58,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 9);
+            this.label1.Location = new System.Drawing.Point(47, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 16);
             this.label1.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             // btn_departmanSec
             // 
-            this.btn_departmanSec.Location = new System.Drawing.Point(274, 35);
+            this.btn_departmanSec.Location = new System.Drawing.Point(274, 151);
             this.btn_departmanSec.Name = "btn_departmanSec";
             this.btn_departmanSec.Size = new System.Drawing.Size(75, 23);
             this.btn_departmanSec.TabIndex = 2;
@@ -77,7 +78,7 @@
             // lbl_secilenDepartman
             // 
             this.lbl_secilenDepartman.AutoSize = true;
-            this.lbl_secilenDepartman.Location = new System.Drawing.Point(355, 38);
+            this.lbl_secilenDepartman.Location = new System.Drawing.Point(355, 154);
             this.lbl_secilenDepartman.Name = "lbl_secilenDepartman";
             this.lbl_secilenDepartman.Size = new System.Drawing.Size(122, 16);
             this.lbl_secilenDepartman.TabIndex = 3;
@@ -86,7 +87,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 87);
+            this.label2.Location = new System.Drawing.Point(47, 203);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 16);
             this.label2.TabIndex = 4;
@@ -101,7 +102,7 @@
             "İleri Sürüş Eğitimi",
             "Domates Yetiştiriciliği",
             "Levazım Uzmanlığı"});
-            this.cb_egitim.Location = new System.Drawing.Point(50, 106);
+            this.cb_egitim.Location = new System.Drawing.Point(50, 222);
             this.cb_egitim.Name = "cb_egitim";
             this.cb_egitim.Size = new System.Drawing.Size(214, 24);
             this.cb_egitim.TabIndex = 5;
@@ -111,7 +112,7 @@
             // lbl_eğitim
             // 
             this.lbl_eğitim.AutoSize = true;
-            this.lbl_eğitim.Location = new System.Drawing.Point(270, 109);
+            this.lbl_eğitim.Location = new System.Drawing.Point(270, 225);
             this.lbl_eğitim.Name = "lbl_eğitim";
             this.lbl_eğitim.Size = new System.Drawing.Size(91, 16);
             this.lbl_eğitim.TabIndex = 6;
@@ -120,7 +121,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 160);
+            this.label3.Location = new System.Drawing.Point(47, 276);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 16);
             this.label3.TabIndex = 7;
@@ -129,14 +130,14 @@
             // cb_markalar
             // 
             this.cb_markalar.FormattingEnabled = true;
-            this.cb_markalar.Location = new System.Drawing.Point(50, 179);
+            this.cb_markalar.Location = new System.Drawing.Point(50, 295);
             this.cb_markalar.Name = "cb_markalar";
             this.cb_markalar.Size = new System.Drawing.Size(214, 24);
             this.cb_markalar.TabIndex = 8;
             // 
             // btn_markaSeç
             // 
-            this.btn_markaSeç.Location = new System.Drawing.Point(271, 179);
+            this.btn_markaSeç.Location = new System.Drawing.Point(271, 295);
             this.btn_markaSeç.Name = "btn_markaSeç";
             this.btn_markaSeç.Size = new System.Drawing.Size(75, 23);
             this.btn_markaSeç.TabIndex = 9;
@@ -147,17 +148,28 @@
             // lbl_marka
             // 
             this.lbl_marka.AutoSize = true;
-            this.lbl_marka.Location = new System.Drawing.Point(353, 186);
+            this.lbl_marka.Location = new System.Drawing.Point(353, 302);
             this.lbl_marka.Name = "lbl_marka";
             this.lbl_marka.Size = new System.Drawing.Size(93, 16);
             this.lbl_marka.TabIndex = 10;
             this.lbl_marka.Text = "Seçilen Marka";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(232, 48);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Birden çok seçenek arasından bir \r\nveya birden çok seçeneği seçmemizi \r\nsağlayan " +
+    "yapıdır. ";
             // 
             // ComboBoxKontrolü
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lbl_marka);
             this.Controls.Add(this.btn_markaSeç);
             this.Controls.Add(this.cb_markalar);
@@ -189,5 +201,6 @@
         private System.Windows.Forms.ComboBox cb_markalar;
         private System.Windows.Forms.Button btn_markaSeç;
         private System.Windows.Forms.Label lbl_marka;
+        private System.Windows.Forms.Label label4;
     }
 }

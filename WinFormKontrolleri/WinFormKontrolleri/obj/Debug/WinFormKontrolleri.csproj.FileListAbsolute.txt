@@ -35,3 +35,7 @@ C:\Users\burak\source\repos\2. Kurs\3 - WinFormKontrolleri\WinFormKontrolleri\ob
 C:\Users\burak\source\repos\2. Kurs\3 - WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.csproj.CoreCompileInputs.cache
 C:\Users\burak\source\repos\2. Kurs\3 - WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.exe
 C:\Users\burak\source\repos\2. Kurs\3 - WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.pdb
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ComboBoxKontrolü.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ListBoxKontrolu.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.CheckBoxRadioButton.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.CheckedListBoxKontrolü.resources
