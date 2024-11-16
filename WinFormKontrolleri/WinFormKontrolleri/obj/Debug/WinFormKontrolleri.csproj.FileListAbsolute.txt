@@ -39,3 +39,6 @@ C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinF
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ListBoxKontrolu.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.CheckBoxRadioButton.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.CheckedListBoxKontrolü.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.DateTimeKontrolleri.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.PictureBoxKontrolü.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ProgressBarKontrolü.resources

@@ -18,7 +18,7 @@ namespace WinFormKontrolleri
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new LabelControl());
             //Application.Run(new ButtonKontrolu());
-            Application.Run(new CheckedListBoxKontrolü());
+            Application.Run(new ProgressBarKontrolü());
 
         }
     }
