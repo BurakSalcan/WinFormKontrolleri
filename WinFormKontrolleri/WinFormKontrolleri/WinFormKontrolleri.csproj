@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -94,6 +109,18 @@
     <Compile Include="MetinAraclari.Designer.cs">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetinEditorum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetinEditorum.Designer.cs">
+      <DependentUpon>MetinEditorum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetinEditorum2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetinEditorum2.Designer.cs">
+      <DependentUpon>MetinEditorum2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Marka.cs" />
     <Compile Include="PictureBoxKontrolü.cs">
       <SubType>Form</SubType>
@@ -133,6 +160,12 @@
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MetinEditorum.resx">
+      <DependentUpon>MetinEditorum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetinEditorum2.resx">
+      <DependentUpon>MetinEditorum2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PictureBoxKontrolü.resx">
       <DependentUpon>PictureBoxKontrolü.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,11 +202,24 @@
     <None Include="Resimler\ŞüpheliKöpke.jpeg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resimler\7208645_application_notes_paper_notepad_icon.ico" />
     <Content Include="Resimler\Son Akşam Yemeği Anime.jpg" />
     <Content Include="Resimler\WoodyGülme.jpeg" />
     <None Include="Resources\Son Akşam Yemeği Anime.jpg" />
     <None Include="Resources\WhatsApp Image 2024-08-01 at 10.29.44.jpeg" />
     <None Include="Resources\WhatsApp Image 2024-11-03 at 16.22.341.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
