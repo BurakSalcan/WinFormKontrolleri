@@ -51,8 +51,13 @@
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.TSCB_font = new System.Windows.Forms.ToolStripComboBox();
             this.TSCB_size = new System.Windows.Forms.ToolStripComboBox();
+            this.TSBTN_fontDegistir = new System.Windows.Forms.ToolStripButton();
+            this.TSBTN_renk = new System.Windows.Forms.ToolStripButton();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.menuStrip1.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -133,6 +138,7 @@
             this.TSMI_yazdir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.TSMI_yazdir.Size = new System.Drawing.Size(266, 26);
             this.TSMI_yazdir.Text = "Yazdır";
+            this.TSMI_yazdir.Click += new System.EventHandler(this.TSMI_yazdir_Click);
             // 
             // toolStripSeparator1
             // 
@@ -185,7 +191,7 @@
             this.toolStripButton2,
             this.toolStripButton3,
             this.toolStripButton4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 27);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(129, 27);
             this.toolStrip1.TabIndex = 0;
@@ -233,29 +239,71 @@
             this.toolStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSCB_font,
-            this.TSCB_size});
-            this.toolStrip2.Location = new System.Drawing.Point(129, 28);
+            this.TSCB_size,
+            this.TSBTN_fontDegistir,
+            this.TSBTN_renk});
+            this.toolStrip2.Location = new System.Drawing.Point(129, 27);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(259, 28);
+            this.toolStrip2.Size = new System.Drawing.Size(458, 28);
             this.toolStrip2.TabIndex = 0;
             this.toolStrip2.Text = "toolStrip2";
             // 
             // TSCB_font
             // 
             this.TSCB_font.Name = "TSCB_font";
-            this.TSCB_font.Size = new System.Drawing.Size(121, 32);
+            this.TSCB_font.Size = new System.Drawing.Size(121, 28);
             this.TSCB_font.SelectedIndexChanged += new System.EventHandler(this.TSCB_font_SelectedIndexChanged);
             // 
             // TSCB_size
             // 
+            this.TSCB_size.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "4",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14",
+            "18",
+            "24",
+            "28",
+            "36",
+            "48",
+            "72"});
             this.TSCB_size.Name = "TSCB_size";
-            this.TSCB_size.Size = new System.Drawing.Size(121, 32);
-            this.TSCB_size.Text = "11";
+            this.TSCB_size.Size = new System.Drawing.Size(121, 28);
             this.TSCB_size.SelectedIndexChanged += new System.EventHandler(this.TSCB_size_SelectedIndexChanged);
+            // 
+            // TSBTN_fontDegistir
+            // 
+            this.TSBTN_fontDegistir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.TSBTN_fontDegistir.Image = ((System.Drawing.Image)(resources.GetObject("TSBTN_fontDegistir.Image")));
+            this.TSBTN_fontDegistir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.TSBTN_fontDegistir.Name = "TSBTN_fontDegistir";
+            this.TSBTN_fontDegistir.Size = new System.Drawing.Size(98, 25);
+            this.TSBTN_fontDegistir.Text = "Font Değiştir";
+            this.TSBTN_fontDegistir.Click += new System.EventHandler(this.TSBTN_fontDegistir_Click);
+            // 
+            // TSBTN_renk
+            // 
+            this.TSBTN_renk.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.TSBTN_renk.Image = ((System.Drawing.Image)(resources.GetObject("TSBTN_renk.Image")));
+            this.TSBTN_renk.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.TSBTN_renk.Name = "TSBTN_renk";
+            this.TSBTN_renk.Size = new System.Drawing.Size(101, 25);
+            this.TSBTN_renk.Text = "Renk Değiştir";
+            this.TSBTN_renk.Click += new System.EventHandler(this.TSBTN_renk_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
             // 
             // MetinEditorum
             // 
@@ -307,7 +355,12 @@
         private System.Windows.Forms.ToolStripComboBox TSCB_font;
         private System.Windows.Forms.ToolStripComboBox TSCB_size;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.ToolStripButton TSBTN_fontDegistir;
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.ToolStripButton TSBTN_renk;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }

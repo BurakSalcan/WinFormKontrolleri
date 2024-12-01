@@ -85,6 +85,12 @@
     <Compile Include="ComboBoxKontrolü.Designer.cs">
       <DependentUpon>ComboBoxKontrolü.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataGridKontrolü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataGridKontrolü.Designer.cs">
+      <DependentUpon>DataGridKontrolü.cs</DependentUpon>
+    </Compile>
     <Compile Include="DateTimeKontrolleri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,18 @@
     <Compile Include="ListBoxKontrolu.Designer.cs">
       <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MDIIcinAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIIcinAnaForm.Designer.cs">
+      <DependentUpon>MDIIcinAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxKontrolü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxKontrolü.Designer.cs">
+      <DependentUpon>MessageBoxKontrolü.cs</DependentUpon>
+    </Compile>
     <Compile Include="MetinAraclari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,12 +133,7 @@
     <Compile Include="MetinEditorum.Designer.cs">
       <DependentUpon>MetinEditorum.cs</DependentUpon>
     </Compile>
-    <Compile Include="MetinEditorum2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MetinEditorum2.Designer.cs">
-      <DependentUpon>MetinEditorum2.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Marka.cs" />
     <Compile Include="PictureBoxKontrolü.cs">
       <SubType>Form</SubType>
@@ -148,6 +161,9 @@
     <EmbeddedResource Include="ComboBoxKontrolü.resx">
       <DependentUpon>ComboBoxKontrolü.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DataGridKontrolü.resx">
+      <DependentUpon>DataGridKontrolü.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DateTimeKontrolleri.resx">
       <DependentUpon>DateTimeKontrolleri.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,14 +173,17 @@
     <EmbeddedResource Include="ListBoxKontrolu.resx">
       <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MDIIcinAnaForm.resx">
+      <DependentUpon>MDIIcinAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxKontrolü.resx">
+      <DependentUpon>MessageBoxKontrolü.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MetinEditorum.resx">
       <DependentUpon>MetinEditorum.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MetinEditorum2.resx">
-      <DependentUpon>MetinEditorum2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PictureBoxKontrolü.resx">
       <DependentUpon>PictureBoxKontrolü.cs</DependentUpon>

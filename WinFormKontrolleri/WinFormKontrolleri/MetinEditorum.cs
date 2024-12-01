@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -78,15 +79,63 @@ namespace WinFormKontrolleri
         private void TSCB_font_SelectedIndexChanged(object sender, EventArgs e)
         {
             FontFamily ff = new FontFamily(TSCB_font.Text);
-            Font seciliFont = new Font(ff, Convert.ToSingle(TSCB_size.Text));
-            richTextBox1.Font = seciliFont;
+            float FontSize = 11;
+            if (TSCB_size.SelectedItem != null)
+            {
+                FontSize = Convert.ToSingle(TSCB_size.SelectedItem.ToString());
+            }
+            Font seciliFont = new Font(ff, FontSize);
+            if (richTextBox1.SelectedText.Length == 0)
+            {
+                richTextBox1.Font = seciliFont;
+            }
+            else
+            {
+                richTextBox1.SelectionFont = seciliFont;
+            }
+            
+
+            //richTextBox1.Font = seciliFont;
         }
 
         private void TSCB_size_SelectedIndexChanged(object sender, EventArgs e)
         {
-            FontFamily ff = new FontFamily(TSCB_font.Text);
-            Font seciliFont = new Font(ff, Convert.ToSingle(TSCB_size.Text));
-            richTextBox1.Font = seciliFont;
+            if (TSCB_font.SelectedItem != null)
+            {
+                FontFamily ff = new FontFamily(TSCB_font.Text);
+                Font seciliFont = new Font(ff, Convert.ToSingle(TSCB_size.SelectedItem.ToString()));
+                richTextBox1.Font = seciliFont;
+            }
+            
+        }
+
+        private void TSMI_yazdir_Click(object sender, EventArgs e)
+        {
+            if (printDialog1.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("Yazdırma işlemi gerçekleştirildi", "Yazdırıldı");
+            }
+            else
+            {
+                MessageBox.Show("Yazdırma işlemi iptal edildi.", "İptal edildi");
+            }
+        }
+
+        private void TSBTN_fontDegistir_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Font = fontDialog1.Font;
+            }
+        }
+
+        private void TSBTN_renk_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.ForeColor = colorDialog1.Color;
+                TSBTN_renk.ForeColor = colorDialog1.Color;
+            }
         }
     }
 }

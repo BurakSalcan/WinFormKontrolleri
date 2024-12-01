@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataGridKontrol\u00FC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs [Design]",
+              "RelativeToolTip": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:34:12.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataGridKontrol\u00FC.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "RelativeToolTip": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:37:14.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

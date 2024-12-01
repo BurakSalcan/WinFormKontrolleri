@@ -43,4 +43,6 @@ C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinF
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.PictureBoxKontrolü.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ProgressBarKontrolü.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.MetinEditorum.resources
-C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.MetinEditorum2.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.MessageBoxKontrolü.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.MDIIcinAnaForm.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.DataGridKontrolü.resources
