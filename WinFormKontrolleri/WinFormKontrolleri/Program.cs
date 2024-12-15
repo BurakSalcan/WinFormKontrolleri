@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormKontrolleri.Northwind;
 
 namespace WinFormKontrolleri
 {
@@ -18,7 +19,7 @@ namespace WinFormKontrolleri
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new LabelControl());
             //Application.Run(new ButtonKontrolu());
-            Application.Run(new DataGridKontrolü());
+            Application.Run(new AnaForm());
 
         }
     }

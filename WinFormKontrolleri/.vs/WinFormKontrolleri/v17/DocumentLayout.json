@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\northwind\\urunlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\northwind\\urunlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\datagridkontrol\u00FC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\northwind\\urunlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\northwind\\urunlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\northwind\\kategorihizliekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\northwind\\kategorihizliekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\northwind\\kategorihizliekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\northwind\\kategorihizliekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|c:\\users\\burak\\source\\repos\\winformkontrolleri\\winformkontrolleri\\northwind\\girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941054D7-BCC3-4063-A158-278A4A578EBC}|WinFormKontrolleri\\WinFormKontrolleri.csproj|solutionrelative:winformkontrolleri\\northwind\\girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataGridKontrol\u00FC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "RelativeDocumentMoniker": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs [Design]",
-              "RelativeToolTip": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "KategoriHizliEkleForm.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "RelativeToolTip": "WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwCQAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:34:12.877Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-14T15:06:53.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataGridKontrol\u00FC.cs",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "RelativeDocumentMoniker": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "RelativeToolTip": "WinFormKontrolleri\\DataGridKontrol\u00FC.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvyAAAAAoAAAA",
+              "Title": "UrunlerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\UrunlerForm.cs [Design]",
+              "RelativeToolTip": "WinFormKontrolleri\\Northwind\\UrunlerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:37:14.222Z",
+              "WhenOpened": "2024-12-14T13:37:35.804Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UrunlerForm.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "RelativeToolTip": "WinFormKontrolleri\\Northwind\\UrunlerForm.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAiwFoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:01:29.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KategoriHizliEkleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs [Design]",
+              "RelativeToolTip": "WinFormKontrolleri\\Northwind\\KategoriHizliEkleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:46.171Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GirisForm.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\GirisForm.cs",
+              "RelativeDocumentMoniker": "WinFormKontrolleri\\Northwind\\GirisForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\WinFormKontrolleri\\WinFormKontrolleri\\Northwind\\GirisForm.cs",
+              "RelativeToolTip": "WinFormKontrolleri\\Northwind\\GirisForm.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:57:39.334Z",
               "EditorCaption": ""
             }
           ]

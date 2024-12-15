@@ -134,7 +134,34 @@
       <DependentUpon>MetinEditorum.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\LoginUser.cs" />
     <Compile Include="Model\Marka.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Northwind\AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind\AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind\GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind\GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind\KategoriHizliEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind\KategoriHizliEkleForm.Designer.cs">
+      <DependentUpon>KategoriHizliEkleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind\UrunlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind\UrunlerForm.Designer.cs">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PictureBoxKontrolü.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +211,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MetinEditorum.resx">
       <DependentUpon>MetinEditorum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind\AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind\GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind\KategoriHizliEkleForm.resx">
+      <DependentUpon>KategoriHizliEkleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind\UrunlerForm.resx">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PictureBoxKontrolü.resx">
       <DependentUpon>PictureBoxKontrolü.cs</DependentUpon>
