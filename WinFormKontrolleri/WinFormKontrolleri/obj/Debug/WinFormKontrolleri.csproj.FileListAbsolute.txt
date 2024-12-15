@@ -50,3 +50,5 @@ C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinF
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.Northwind.GirisForm.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.Northwind.UrunlerForm.resources
 C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.Northwind.KategoriHizliEkleForm.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.FlowLayoutPanelVeUserKontrol.resources
+C:\Users\burak\source\repos\WinFormKontrolleri\WinFormKontrolleri\obj\Debug\WinFormKontrolleri.ResimVeIsimControl.resources
